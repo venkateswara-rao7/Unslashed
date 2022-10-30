@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Unslashed Finance">
+    <meta name="description" content="The best and esiest way to protect your crypto assets against hacks and other events.">
+    <meta name="keywords" content="unslashed finance,Insurence,Decentralized,Finance">
+    <title>Unslashed.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link  rel = "stylesheet"  type ="text/css" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div id="nxt">
+        <div class="home_container">
+            <div class="header_container">
+               <div class="header_logoContainer"> 
+                <img src="https://th.bing.com/th/id/OIF.omZEfWiRD9gpT7mBh4xWgw?pid=ImgDet&amp;rs=1" alt="See the source image" class=" nofocus" tabindex="0" aria-label="See the source image" width="60px" height="60px">
+
+                       <span class="h5">UNSLASHED</span>
+            </div>
+                <div class="header_menuContainer">
+                    <div class="menu_container">                        
+                        <a href = "https://forum.unslashed.finance/" class="menu_item" >Governance<img data-v-6abec664 src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiMyZWNjNzEiPjxwYXRoIGQ9Ik04NiwxNC4zMzMzM2MtMzkuNTE2NzYsMCAtNzEuNjY2NjcsMzIuMTQ5OTMgLTcxLjY2NjY3LDcxLjY2NjY3YzAsMzkuNTE2NzMgMzIuMTQ5OSw3MS42NjY2NyA3MS42NjY2Nyw3MS42NjY2N2MzOS41MTY3NiwwIDcxLjY2NjY3LC0zMi4xNDk5MyA3MS42NjY2NywtNzEuNjY2NjdjMCwtMzkuNTE2NzMgLTMyLjE0OTksLTcxLjY2NjY3IC03MS42NjY2NywtNzEuNjY2Njd6TTg2LDI1LjA4MzMzYzMzLjcwNzA0LDAgNjAuOTE2NjcsMjcuMjA5NjUgNjAuOTE2NjcsNjAuOTE2NjdjMCwzMy43MDcwMiAtMjcuMjA5NjMsNjAuOTE2NjcgLTYwLjkxNjY3LDYwLjkxNjY3Yy0zMy43MDcwNCwwIC02MC45MTY2NywtMjcuMjA5NjUgLTYwLjkxNjY3LC02MC45MTY2N2MwLC0zMy43MDcwMiAyNy4yMDk2MywtNjAuOTE2NjcgNjAuOTE2NjcsLTYwLjkxNjY3ek0xMDIuMDIwMDIsNjQuNDUxMDFjLTAuMTk0MzcsMC4wMDU4MSAtMC4zODgyOSwwLjAyMjE3IC0wLjU4MDg5LDAuMDQ4OTloLTI3Ljk4MDhjLTEuOTM4NDIsLTAuMDI3NDEgLTMuNzQxNDQsMC45OTEwMiAtNC43MTg2NSwyLjY2NTMyYy0wLjk3NzIxLDEuNjc0MyAtMC45NzcyMSwzLjc0NTA3IDAsNS40MTkzN2MwLjk3NzIxLDEuNjc0MyAyLjc4MDIzLDIuNjkyNzMgNC43MTg2NSwyLjY2NTMyaDE1LjY5MTA4bC0yNi42NTgwNCwyNi42NTgwNGMtMS40MDQxMiwxLjM0ODE1IC0xLjk2OTcxLDMuMzUwMDUgLTEuNDc4NjYsNS4yMzM2NGMwLjQ5MTA1LDEuODgzNTkgMS45NjIwMiwzLjM1NDU2IDMuODQ1NjEsMy44NDU2MWMxLjg4MzU5LDAuNDkxMDUgMy44ODU0OSwtMC4wNzQ1NSA1LjIzMzY0LC0xLjQ3ODY2bDI2LjY1ODA0LC0yNi42NTgwNHYxNS42OTEwOGMtMC4wMjc0MSwxLjkzODQyIDAuOTkxMDIsMy43NDE0NCAyLjY2NTMyLDQuNzE4NjVjMS42NzQzLDAuOTc3MjEgMy43NDUwNywwLjk3NzIxIDUuNDE5MzcsMGMxLjY3NDMsLTAuOTc3MjEgMi42OTI3MywtMi43ODAyMyAyLjY2NTMyLC00LjcxODY1di0yNy45ODc3OWMwLjIxNDQxLC0xLjU2NTIzIC0wLjI3MDU4LC0zLjE0NTUzIC0xLjMyNjA5LC00LjMyMTAyYy0xLjA1NTUyLC0xLjE3NTQ5IC0yLjU3NDY5LC0xLjgyNzE2IC00LjE1Mzg5LC0xLjc4MTg0eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+" alt="icon" customsize="172" width="25" height="" style="background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;"></a>                     
+                        <a href = "https://documentation.unslashed.finance/" class="menu_item">Docs<img data-v-6abec664 src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiMyZWNjNzEiPjxwYXRoIGQ9Ik04NiwxNC4zMzMzM2MtMzkuNTE2NzYsMCAtNzEuNjY2NjcsMzIuMTQ5OTMgLTcxLjY2NjY3LDcxLjY2NjY3YzAsMzkuNTE2NzMgMzIuMTQ5OSw3MS42NjY2NyA3MS42NjY2Nyw3MS42NjY2N2MzOS41MTY3NiwwIDcxLjY2NjY3LC0zMi4xNDk5MyA3MS42NjY2NywtNzEuNjY2NjdjMCwtMzkuNTE2NzMgLTMyLjE0OTksLTcxLjY2NjY3IC03MS42NjY2NywtNzEuNjY2Njd6TTg2LDI1LjA4MzMzYzMzLjcwNzA0LDAgNjAuOTE2NjcsMjcuMjA5NjUgNjAuOTE2NjcsNjAuOTE2NjdjMCwzMy43MDcwMiAtMjcuMjA5NjMsNjAuOTE2NjcgLTYwLjkxNjY3LDYwLjkxNjY3Yy0zMy43MDcwNCwwIC02MC45MTY2NywtMjcuMjA5NjUgLTYwLjkxNjY3LC02MC45MTY2N2MwLC0zMy43MDcwMiAyNy4yMDk2MywtNjAuOTE2NjcgNjAuOTE2NjcsLTYwLjkxNjY3ek0xMDIuMDIwMDIsNjQuNDUxMDFjLTAuMTk0MzcsMC4wMDU4MSAtMC4zODgyOSwwLjAyMjE3IC0wLjU4MDg5LDAuMDQ4OTloLTI3Ljk4MDhjLTEuOTM4NDIsLTAuMDI3NDEgLTMuNzQxNDQsMC45OTEwMiAtNC43MTg2NSwyLjY2NTMyYy0wLjk3NzIxLDEuNjc0MyAtMC45NzcyMSwzLjc0NTA3IDAsNS40MTkzN2MwLjk3NzIxLDEuNjc0MyAyLjc4MDIzLDIuNjkyNzMgNC43MTg2NSwyLjY2NTMyaDE1LjY5MTA4bC0yNi42NTgwNCwyNi42NTgwNGMtMS40MDQxMiwxLjM0ODE1IC0xLjk2OTcxLDMuMzUwMDUgLTEuNDc4NjYsNS4yMzM2NGMwLjQ5MTA1LDEuODgzNTkgMS45NjIwMiwzLjM1NDU2IDMuODQ1NjEsMy44NDU2MWMxLjg4MzU5LDAuNDkxMDUgMy44ODU0OSwtMC4wNzQ1NSA1LjIzMzY0LC0xLjQ3ODY2bDI2LjY1ODA0LC0yNi42NTgwNHYxNS42OTEwOGMtMC4wMjc0MSwxLjkzODQyIDAuOTkxMDIsMy43NDE0NCAyLjY2NTMyLDQuNzE4NjVjMS42NzQzLDAuOTc3MjEgMy43NDUwNywwLjk3NzIxIDUuNDE5MzcsMGMxLjY3NDMsLTAuOTc3MjEgMi42OTI3MywtMi43ODAyMyAyLjY2NTMyLC00LjcxODY1di0yNy45ODc3OWMwLjIxNDQxLC0xLjU2NTIzIC0wLjI3MDU4LC0zLjE0NTUzIC0xLjMyNjA5LC00LjMyMTAyYy0xLjA1NTUyLC0xLjE3NTQ5IC0yLjU3NDY5LC0xLjgyNzE2IC00LjE1Mzg5LC0xLjc4MTg0eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+" alt="icon" customsize="172" width="25" height="" style="background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;"></a>
+                        <div class="select_container">
+                            <div clas="Select_text" style="color :rgb(255, 255,255);">Community</div>
+                        </div>
+                     </div>
+                      </div>
+                 <div class="header_buttonContainer">
+                    <div class="button_container  button_primary">use app</div>
+                </div>
+            </div>
+             <div class="home_maincontainer">
+             <div class="title_container">
+                <span class="h6">welcome to unslashed</span>
+                <h1 class="Title_titleContainer">Insurence For Decentralized Finance</h1>
+                <span class="h5  Title_trusted">Trusted by institutions and DeFi power users to keep their assets secure</span>
+                <div class="Title_CTAcontainer">
+                   <div class="button_container button_primary Title_insured">
+                    <div class=" button_innerContainer">Get insured</div>
+                   </div>
+                   <div class=" button_container btn_secondary">
+                    <div  class="Button_secondaryInnerBackground ">
+                        <div class="Button_secondaryInnerContainer"> Earn Yield</div>
+                    </div>
+                   </div>
+                </div>
+             </div>
+             <div class="KPIs_container">
+                <div class="KPIs_yield">
+                    <span class="KPIs_title">24%</span>
+                    <span class="KPIs_desc">Avg. Yield</span>
+                </div>
+                <div class="KPIs_coverage">
+                    <span class="KPIs_Title KPIs_gradientcontainer">#500M+</span>
+                    <span class="KPIs_Desc">Insured Assets</span>
+                </div>
+                <div class="KPIs_liquidity">
+                    <span class="KPIs__title">3,210+</span>
+                    <span class="KPIs__desc">Capital Providers</span>
+                </div>
+            </div>
+            <div class="Assetdiversification_container">
+                <div class="Assetdiversification_headline">
+                    <span class="h6">SAFEGUARD ASSETS</span>
+                    <h2 class="AssetDiversification_description">Protection against many type of assets</h2>
+                    <p class="Assetdiversification_details">"we provide security and comfort to institutions, DeFi users, and developers by protecting their assets and infrastructure against numerous threats."</p>
+                </div>
+                <div class="AssetDiversification_box">
+                    <div class="AssetDiversification_innerBox">
+                        <div class="box_container"> 
+                            <div class="box_desktoporder">
+                                <div class="Boxs_boxGroup1">
+                                    <div class="Boxs_boxContainer">
+                                        <div class="Boxs_iconsContainer">
+                                            <div class="Boxs_mainIcons">
+                                                <img srcset="https://img.icons8.com/external-fauzidea-gradient-fauzidea/344/external-atom-back-to-school-fauzidea-gradient-fauzidea.png 2x" alt="icon" loading="lazy" style="  width:60px; height:60px;">
+                                            </div>
+                                            <div class="Boxs_shieldIcons">
+                                                <img data-v-6abec664="" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0iIzMzMzMzMyI+PC9wYXRoPjxnIGZpbGw9IiMzNDk4ZGIiPjxwYXRoIGQ9Ik0xNDEuMzQxLDMxLjE2MDY3Yy0xNS45MzY4OSwtMy4yMDQ2OCAtMzEuMjcwMDYsLTguODk3NzggLTQ1LjQzNjY3LC0xNi44NzAzM2MtNi4xMTY3LC0zLjU4MzQzIC0xMy42OTE5NywtMy41ODM0MyAtMTkuODA4NjcsMGMtMTQuMTY2NjEsNy45NzI1NSAtMjkuNDk5NzgsMTMuNjY1NjYgLTQ1LjQzNjY3LDE2Ljg3MDMzYy05LjEyMDcsMS45MjQwNyAtMTUuNjY4NzEsOS45NDI3NyAtMTUuNzMwODMsMTkuMjY0djEyLjUyNzMzYzAuMDc0MjcsMzUuMjAxNjMgMTguMTc0MDMsNjcuOTEyMTEgNDcuOTU5MzMsODYuNjczNjdsMTIuNzA2NSw3Ljg4MzMzYzYuMzU2NTUsMy45Nzg2MiAxNC40MjY3OCwzLjk3ODYyIDIwLjc4MzMzLDBsMTIuNjk5MzMsLTcuODgzMzNjMjkuNzk5LC0xOC43NTMgNDcuOTEzMTQsLTUxLjQ2NTAyIDQ3Ljk5NTE3LC04Ni42NzM2N3YtMTIuNTI3MzNjLTAuMDYyMTIsLTkuMzIxMjMgLTYuNjEwMTMsLTE3LjMzOTkzIC0xNS43MzA4MywtMTkuMjY0ek0xMTAuNzI1LDc1Ljk2NjY3bC0yOC42NjY2NywyMS41Yy0wLjkzMTYsMC42OTU0OSAtMi4wNjI0MywxLjA3MjQzIC0zLjIyNSwxLjA3NWMtMS40MjU4NSwwLjAwMjcxIC0yLjc5MzU0LC0wLjU2NTAxIC0zLjc5ODMzLC0xLjU3NjY3bC0xNC4zMzMzMywtMTQuMzMzMzNjLTEuOTczNDEsLTIuMTE3ODIgLTEuOTE1MTgsLTUuNDE4MDcgMC4xMzE3MSwtNy40NjQ5NmMyLjA0Njg5LC0yLjA0Njg5IDUuMzQ3MTQsLTIuMTA1MTIgNy40NjQ5NiwtMC4xMzE3MWwxMS4wMzY2NywxMS4wMzY2N2wyNC45NCwtMTguNzA1YzIuMzc0ODIsLTEuNzgxMTIgNS43NDM4OCwtMS4yOTk4MiA3LjUyNSwxLjA3NWMxLjc4MTEyLDIuMzc0ODIgMS4yOTk4Miw1Ljc0Mzg4IC0xLjA3NSw3LjUyNXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" alt="icon" customsize="172" width="30" height="30" style= "background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;">
+                                            </div>
+                                        </div>
+                                        <div class="Box_Text">Validators Slashing</div>
+                                    </div>
+                                
+                                <div class="Boxs_learn_Border">
+                                    <div class="Boxs_learn_Container">
+                                        <span class="Boxs_learn_Text">
+                                           " Learn about the"
+                                            <span style="font-weight: 800px">Spartan Bucket</span>
+                                            "and how it works"
+                                        </span>
+                                        <div class="Boxs_CTAContainer">
+                                            <img data-v-6abec664 src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiMyZWNjNzEiPjxwYXRoIGQ9Ik04NiwxNC4zMzMzM2MtMzkuNTE2NzYsMCAtNzEuNjY2NjcsMzIuMTQ5OTMgLTcxLjY2NjY3LDcxLjY2NjY3YzAsMzkuNTE2NzMgMzIuMTQ5OSw3MS42NjY2NyA3MS42NjY2Nyw3MS42NjY2N2MzOS41MTY3NiwwIDcxLjY2NjY3LC0zMi4xNDk5MyA3MS42NjY2NywtNzEuNjY2NjdjMCwtMzkuNTE2NzMgLTMyLjE0OTksLTcxLjY2NjY3IC03MS42NjY2NywtNzEuNjY2Njd6TTg2LDI1LjA4MzMzYzMzLjcwNzA0LDAgNjAuOTE2NjcsMjcuMjA5NjUgNjAuOTE2NjcsNjAuOTE2NjdjMCwzMy43MDcwMiAtMjcuMjA5NjMsNjAuOTE2NjcgLTYwLjkxNjY3LDYwLjkxNjY3Yy0zMy43MDcwNCwwIC02MC45MTY2NywtMjcuMjA5NjUgLTYwLjkxNjY3LC02MC45MTY2N2MwLC0zMy43MDcwMiAyNy4yMDk2MywtNjAuOTE2NjcgNjAuOTE2NjcsLTYwLjkxNjY3ek0xMDIuMDIwMDIsNjQuNDUxMDFjLTAuMTk0MzcsMC4wMDU4MSAtMC4zODgyOSwwLjAyMjE3IC0wLjU4MDg5LDAuMDQ4OTloLTI3Ljk4MDhjLTEuOTM4NDIsLTAuMDI3NDEgLTMuNzQxNDQsMC45OTEwMiAtNC43MTg2NSwyLjY2NTMyYy0wLjk3NzIxLDEuNjc0MyAtMC45NzcyMSwzLjc0NTA3IDAsNS40MTkzN2MwLjk3NzIxLDEuNjc0MyAyLjc4MDIzLDIuNjkyNzMgNC43MTg2NSwyLjY2NTMyaDE1LjY5MTA4bC0yNi42NTgwNCwyNi42NTgwNGMtMS40MDQxMiwxLjM0ODE1IC0xLjk2OTcxLDMuMzUwMDUgLTEuNDc4NjYsNS4yMzM2NGMwLjQ5MTA1LDEuODgzNTkgMS45NjIwMiwzLjM1NDU2IDMuODQ1NjEsMy44NDU2MWMxLjg4MzU5LDAuNDkxMDUgMy44ODU0OSwtMC4wNzQ1NSA1LjIzMzY0LC0xLjQ3ODY2bDI2LjY1ODA0LC0yNi42NTgwNHYxNS42OTEwOGMtMC4wMjc0MSwxLjkzODQyIDAuOTkxMDIsMy43NDE0NCAyLjY2NTMyLDQuNzE4NjVjMS42NzQzLDAuOTc3MjEgMy43NDUwNywwLjk3NzIxIDUuNDE5MzcsMGMxLjY3NDMsLTAuOTc3MjEgMi42OTI3MywtMi43ODAyMyAyLjY2NTMyLC00LjcxODY1di0yNy45ODc3OWMwLjIxNDQxLC0xLjU2NTIzIC0wLjI3MDU4LC0zLjE0NTUzIC0xLjMyNjA5LC00LjMyMTAyYy0xLjA1NTUyLC0xLjE3NTQ5IC0yLjU3NDY5LC0xLjgyNzE2IC00LjE1Mzg5LC0xLjc4MTg0eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+" alt="icon" customsize="172" width="25" height="30" style="background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;">
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            
+                                 <div class="Boxs-boxGroup2">
+                                   <div class="Boxs_boxcontainer">
+                                    <div class="Boxs_iconsContainer">
+                                        <div class="Boxs_mainIcons">
+                                            <img srcset="https://img.icons8.com/wired/344/document.png 2x" alt="smart contracts failures" loading="lazy" style="width: 50px; height: 50px; filter: invert(0%) sepia(6%) saturate(7500%) hue-rotate(288deg) brightness(93%) contrast(107%);">
+                                        </div>
+                                        <div class="Boxs_shieldIcons">
+                                            <img data-v-6abec664="" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0iIzMzMzMzMyI+PC9wYXRoPjxnIGZpbGw9IiMzNDk4ZGIiPjxwYXRoIGQ9Ik0xNDEuMzQxLDMxLjE2MDY3Yy0xNS45MzY4OSwtMy4yMDQ2OCAtMzEuMjcwMDYsLTguODk3NzggLTQ1LjQzNjY3LC0xNi44NzAzM2MtNi4xMTY3LC0zLjU4MzQzIC0xMy42OTE5NywtMy41ODM0MyAtMTkuODA4NjcsMGMtMTQuMTY2NjEsNy45NzI1NSAtMjkuNDk5NzgsMTMuNjY1NjYgLTQ1LjQzNjY3LDE2Ljg3MDMzYy05LjEyMDcsMS45MjQwNyAtMTUuNjY4NzEsOS45NDI3NyAtMTUuNzMwODMsMTkuMjY0djEyLjUyNzMzYzAuMDc0MjcsMzUuMjAxNjMgMTguMTc0MDMsNjcuOTEyMTEgNDcuOTU5MzMsODYuNjczNjdsMTIuNzA2NSw3Ljg4MzMzYzYuMzU2NTUsMy45Nzg2MiAxNC40MjY3OCwzLjk3ODYyIDIwLjc4MzMzLDBsMTIuNjk5MzMsLTcuODgzMzNjMjkuNzk5LC0xOC43NTMgNDcuOTEzMTQsLTUxLjQ2NTAyIDQ3Ljk5NTE3LC04Ni42NzM2N3YtMTIuNTI3MzNjLTAuMDYyMTIsLTkuMzIxMjMgLTYuNjEwMTMsLTE3LjMzOTkzIC0xNS43MzA4MywtMTkuMjY0ek0xMTAuNzI1LDc1Ljk2NjY3bC0yOC42NjY2NywyMS41Yy0wLjkzMTYsMC42OTU0OSAtMi4wNjI0MywxLjA3MjQzIC0zLjIyNSwxLjA3NWMtMS40MjU4NSwwLjAwMjcxIC0yLjc5MzU0LC0wLjU2NTAxIC0zLjc5ODMzLC0xLjU3NjY3bC0xNC4zMzMzMywtMTQuMzMzMzNjLTEuOTczNDEsLTIuMTE3ODIgLTEuOTE1MTgsLTUuNDE4MDcgMC4xMzE3MSwtNy40NjQ5NmMyLjA0Njg5LC0yLjA0Njg5IDUuMzQ3MTQsLTIuMTA1MTIgNy40NjQ5NiwtMC4xMzE3MWwxMS4wMzY2NywxMS4wMzY2N2wyNC45NCwtMTguNzA1YzIuMzc0ODIsLTEuNzgxMTIgNS43NDM4OCwtMS4yOTk4MiA3LjUyNSwxLjA3NWMxLjc4MTEyLDIuMzc0ODIgMS4yOTk4Miw1Ljc0Mzg4IC0xLjA3NSw3LjUyNXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" alt="icon" customsize="172" width="30" height="30" style= "background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;">
+                                        </div>
+                                    </div>
+                                    <div class="Boxs_text">Smart-contracts failures</div>
+
+                                   </div>
+                                   <div class="Boxs_boxcontainer">
+                                    <div class="Boxs_iconsContainer">
+                                        <div class="Boxs_mainIcons">
+                                            <img src="https://img.icons8.com/external-icons-smashing-stocks/68/000000/external-Wallet-bank-icons-icons-smashing-stocks.png"/>
+                                        </div>
+                                        <div class="Boxs_shieldIcons">
+                                            <img data-v-6abec664="" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0iIzMzMzMzMyI+PC9wYXRoPjxnIGZpbGw9IiMzNDk4ZGIiPjxwYXRoIGQ9Ik0xNDEuMzQxLDMxLjE2MDY3Yy0xNS45MzY4OSwtMy4yMDQ2OCAtMzEuMjcwMDYsLTguODk3NzggLTQ1LjQzNjY3LC0xNi44NzAzM2MtNi4xMTY3LC0zLjU4MzQzIC0xMy42OTE5NywtMy41ODM0MyAtMTkuODA4NjcsMGMtMTQuMTY2NjEsNy45NzI1NSAtMjkuNDk5NzgsMTMuNjY1NjYgLTQ1LjQzNjY3LDE2Ljg3MDMzYy05LjEyMDcsMS45MjQwNyAtMTUuNjY4NzEsOS45NDI3NyAtMTUuNzMwODMsMTkuMjY0djEyLjUyNzMzYzAuMDc0MjcsMzUuMjAxNjMgMTguMTc0MDMsNjcuOTEyMTEgNDcuOTU5MzMsODYuNjczNjdsMTIuNzA2NSw3Ljg4MzMzYzYuMzU2NTUsMy45Nzg2MiAxNC40MjY3OCwzLjk3ODYyIDIwLjc4MzMzLDBsMTIuNjk5MzMsLTcuODgzMzNjMjkuNzk5LC0xOC43NTMgNDcuOTEzMTQsLTUxLjQ2NTAyIDQ3Ljk5NTE3LC04Ni42NzM2N3YtMTIuNTI3MzNjLTAuMDYyMTIsLTkuMzIxMjMgLTYuNjEwMTMsLTE3LjMzOTkzIC0xNS43MzA4MywtMTkuMjY0ek0xMTAuNzI1LDc1Ljk2NjY3bC0yOC42NjY2NywyMS41Yy0wLjkzMTYsMC42OTU0OSAtMi4wNjI0MywxLjA3MjQzIC0zLjIyNSwxLjA3NWMtMS40MjU4NSwwLjAwMjcxIC0yLjc5MzU0LC0wLjU2NTAxIC0zLjc5ODMzLC0xLjU3NjY3bC0xNC4zMzMzMywtMTQuMzMzMzNjLTEuOTczNDEsLTIuMTE3ODIgLTEuOTE1MTgsLTUuNDE4MDcgMC4xMzE3MSwtNy40NjQ5NmMyLjA0Njg5LC0yLjA0Njg5IDUuMzQ3MTQsLTIuMTA1MTIgNy40NjQ5NiwtMC4xMzE3MWwxMS4wMzY2NywxMS4wMzY2N2wyNC45NCwtMTguNzA1YzIuMzc0ODIsLTEuNzgxMTIgNS43NDM4OCwtMS4yOTk4MiA3LjUyNSwxLjA3NWMxLjc4MTEyLDIuMzc0ODIgMS4yOTk4Miw1Ljc0Mzg4IC0xLjA3NSw3LjUyNXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" alt="icon" customsize="172" width="30" height="30" style= "background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;">
+                                        </div>
+                                    </div>
+                                    <div class="Box_Text">Wallet Exploites</div>
+                                   </div>
+                                   <div class="Boxs_boxcontainer">
+                                    <div class="Boxs_iconsContainer">
+                                        <div class="Boxs_mainIcons">
+                                            <img srcset="https://img.icons8.com/external-icongeek26-outline-icongeek26/2x/external-coins-casino-icongeek26-outline-icongeek26-1.png 2x" alt="Coins icon" loading="lazy" style="filter: invert(0%) sepia(67%) saturate(3612%) hue-rotate(218deg) brightness(107%) contrast(108%);">
+                                        </div>
+                                        <div class="Boxs_shieldIcons">
+                                            <img data-v-6abec664="" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0iIzMzMzMzMyI+PC9wYXRoPjxnIGZpbGw9IiMzNDk4ZGIiPjxwYXRoIGQ9Ik0xNDEuMzQxLDMxLjE2MDY3Yy0xNS45MzY4OSwtMy4yMDQ2OCAtMzEuMjcwMDYsLTguODk3NzggLTQ1LjQzNjY3LC0xNi44NzAzM2MtNi4xMTY3LC0zLjU4MzQzIC0xMy42OTE5NywtMy41ODM0MyAtMTkuODA4NjcsMGMtMTQuMTY2NjEsNy45NzI1NSAtMjkuNDk5NzgsMTMuNjY1NjYgLTQ1LjQzNjY3LDE2Ljg3MDMzYy05LjEyMDcsMS45MjQwNyAtMTUuNjY4NzEsOS45NDI3NyAtMTUuNzMwODMsMTkuMjY0djEyLjUyNzMzYzAuMDc0MjcsMzUuMjAxNjMgMTguMTc0MDMsNjcuOTEyMTEgNDcuOTU5MzMsODYuNjczNjdsMTIuNzA2NSw3Ljg4MzMzYzYuMzU2NTUsMy45Nzg2MiAxNC40MjY3OCwzLjk3ODYyIDIwLjc4MzMzLDBsMTIuNjk5MzMsLTcuODgzMzNjMjkuNzk5LC0xOC43NTMgNDcuOTEzMTQsLTUxLjQ2NTAyIDQ3Ljk5NTE3LC04Ni42NzM2N3YtMTIuNTI3MzNjLTAuMDYyMTIsLTkuMzIxMjMgLTYuNjEwMTMsLTE3LjMzOTkzIC0xNS43MzA4MywtMTkuMjY0ek0xMTAuNzI1LDc1Ljk2NjY3bC0yOC42NjY2NywyMS41Yy0wLjkzMTYsMC42OTU0OSAtMi4wNjI0MywxLjA3MjQzIC0zLjIyNSwxLjA3NWMtMS40MjU4NSwwLjAwMjcxIC0yLjc5MzU0LC0wLjU2NTAxIC0zLjc5ODMzLC0xLjU3NjY3bC0xNC4zMzMzMywtMTQuMzMzMzNjLTEuOTczNDEsLTIuMTE3ODIgLTEuOTE1MTgsLTUuNDE4MDcgMC4xMzE3MSwtNy40NjQ5NmMyLjA0Njg5LC0yLjA0Njg5IDUuMzQ3MTQsLTIuMTA1MTIgNy40NjQ5NiwtMC4xMzE3MWwxMS4wMzY2NywxMS4wMzY2N2wyNC45NCwtMTguNzA1YzIuMzc0ODIsLTEuNzgxMTIgNS43NDM4OCwtMS4yOTk4MiA3LjUyNSwxLjA3NWMxLjc4MTEyLDIuMzc0ODIgMS4yOTk4Miw1Ljc0Mzg4IC0xLjA3NSw3LjUyNXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" alt="icon" customsize="172" width="30" height="30" style= "background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;">
+                                        </div>
+                                    </div>
+                                    <div class="Box_Text">Stablecoin pegs</div>
+                                   </div>
+
+                                 </div>
+                                    <div class="Boxs_boxGroup3">
+                                        <div class="Boxs_boxcontainer">
+                                            <div class="Boxs_iconsContainer">
+                                                <div class="Boxs_mainIcons">
+                                                    <img srcset="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/344/external-target-finance-kiranshastry-lineal-kiranshastry-1.png 2x" alt="icon" loading="lazy" style="width: 60px; height: 60px; filter: invert(0%) sepia(1%) saturate(7456%) hue-rotate(2deg) brightness(81%) contrast(97%);">
+                                                </div>
+                                                <div class="Boxs_shieldIcons">
+                                                    <img data-v-6abec664="" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0iIzMzMzMzMyI+PC9wYXRoPjxnIGZpbGw9IiMzNDk4ZGIiPjxwYXRoIGQ9Ik0xNDEuMzQxLDMxLjE2MDY3Yy0xNS45MzY4OSwtMy4yMDQ2OCAtMzEuMjcwMDYsLTguODk3NzggLTQ1LjQzNjY3LC0xNi44NzAzM2MtNi4xMTY3LC0zLjU4MzQzIC0xMy42OTE5NywtMy41ODM0MyAtMTkuODA4NjcsMGMtMTQuMTY2NjEsNy45NzI1NSAtMjkuNDk5NzgsMTMuNjY1NjYgLTQ1LjQzNjY3LDE2Ljg3MDMzYy05LjEyMDcsMS45MjQwNyAtMTUuNjY4NzEsOS45NDI3NyAtMTUuNzMwODMsMTkuMjY0djEyLjUyNzMzYzAuMDc0MjcsMzUuMjAxNjMgMTguMTc0MDMsNjcuOTEyMTEgNDcuOTU5MzMsODYuNjczNjdsMTIuNzA2NSw3Ljg4MzMzYzYuMzU2NTUsMy45Nzg2MiAxNC40MjY3OCwzLjk3ODYyIDIwLjc4MzMzLDBsMTIuNjk5MzMsLTcuODgzMzNjMjkuNzk5LC0xOC43NTMgNDcuOTEzMTQsLTUxLjQ2NTAyIDQ3Ljk5NTE3LC04Ni42NzM2N3YtMTIuNTI3MzNjLTAuMDYyMTIsLTkuMzIxMjMgLTYuNjEwMTMsLTE3LjMzOTkzIC0xNS43MzA4MywtMTkuMjY0ek0xMTAuNzI1LDc1Ljk2NjY3bC0yOC42NjY2NywyMS41Yy0wLjkzMTYsMC42OTU0OSAtMi4wNjI0MywxLjA3MjQzIC0zLjIyNSwxLjA3NWMtMS40MjU4NSwwLjAwMjcxIC0yLjc5MzU0LC0wLjU2NTAxIC0zLjc5ODMzLC0xLjU3NjY3bC0xNC4zMzMzMywtMTQuMzMzMzNjLTEuOTczNDEsLTIuMTE3ODIgLTEuOTE1MTgsLTUuNDE4MDcgMC4xMzE3MSwtNy40NjQ5NmMyLjA0Njg5LC0yLjA0Njg5IDUuMzQ3MTQsLTIuMTA1MTIgNy40NjQ5NiwtMC4xMzE3MWwxMS4wMzY2NywxMS4wMzY2N2wyNC45NCwtMTguNzA1YzIuMzc0ODIsLTEuNzgxMTIgNS43NDM4OCwtMS4yOTk4MiA3LjUyNSwxLjA3NWMxLjc4MTEyLDIuMzc0ODIgMS4yOTk4Miw1Ljc0Mzg4IC0xLjA3NSw3LjUyNXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" alt="icon" customsize="172" width="30" height="30" style= "background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;">
+                                                </div>
+                                            </div>
+                                            <div class="Box_Text">Exchange hacks</div>
+                                        </div>
+                                        <div class="Boxs_boxcontainer">
+                                            <div class="Boxs_iconsContainer">
+                                                <div class="Boxs_mainIcons">
+                                                    <img srcset="https://img.icons8.com/carbon-copy/344/visible.png 2x" alt="icon" loading="lazy" style="width: 80px; height: 80px; filter: invert(0%) sepia(18%) saturate(7500%) hue-rotate(261deg) brightness(113%) contrast(100%);">
+                                                </div>
+                                                <div class="Boxs_shieldIcons">
+                                                    <img data-v-6abec664="" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0iIzMzMzMzMyI+PC9wYXRoPjxnIGZpbGw9IiMzNDk4ZGIiPjxwYXRoIGQ9Ik0xNDEuMzQxLDMxLjE2MDY3Yy0xNS45MzY4OSwtMy4yMDQ2OCAtMzEuMjcwMDYsLTguODk3NzggLTQ1LjQzNjY3LC0xNi44NzAzM2MtNi4xMTY3LC0zLjU4MzQzIC0xMy42OTE5NywtMy41ODM0MyAtMTkuODA4NjcsMGMtMTQuMTY2NjEsNy45NzI1NSAtMjkuNDk5NzgsMTMuNjY1NjYgLTQ1LjQzNjY3LDE2Ljg3MDMzYy05LjEyMDcsMS45MjQwNyAtMTUuNjY4NzEsOS45NDI3NyAtMTUuNzMwODMsMTkuMjY0djEyLjUyNzMzYzAuMDc0MjcsMzUuMjAxNjMgMTguMTc0MDMsNjcuOTEyMTEgNDcuOTU5MzMsODYuNjczNjdsMTIuNzA2NSw3Ljg4MzMzYzYuMzU2NTUsMy45Nzg2MiAxNC40MjY3OCwzLjk3ODYyIDIwLjc4MzMzLDBsMTIuNjk5MzMsLTcuODgzMzNjMjkuNzk5LC0xOC43NTMgNDcuOTEzMTQsLTUxLjQ2NTAyIDQ3Ljk5NTE3LC04Ni42NzM2N3YtMTIuNTI3MzNjLTAuMDYyMTIsLTkuMzIxMjMgLTYuNjEwMTMsLTE3LjMzOTkzIC0xNS43MzA4MywtMTkuMjY0ek0xMTAuNzI1LDc1Ljk2NjY3bC0yOC42NjY2NywyMS41Yy0wLjkzMTYsMC42OTU0OSAtMi4wNjI0MywxLjA3MjQzIC0zLjIyNSwxLjA3NWMtMS40MjU4NSwwLjAwMjcxIC0yLjc5MzU0LC0wLjU2NTAxIC0zLjc5ODMzLC0xLjU3NjY3bC0xNC4zMzMzMywtMTQuMzMzMzNjLTEuOTczNDEsLTIuMTE3ODIgLTEuOTE1MTgsLTUuNDE4MDcgMC4xMzE3MSwtNy40NjQ5NmMyLjA0Njg5LC0yLjA0Njg5IDUuMzQ3MTQsLTIuMTA1MTIgNy40NjQ5NiwtMC4xMzE3MWwxMS4wMzY2NywxMS4wMzY2N2wyNC45NCwtMTguNzA1YzIuMzc0ODIsLTEuNzgxMTIgNS43NDM4OCwtMS4yOTk4MiA3LjUyNSwxLjA3NWMxLjc4MTEyLDIuMzc0ODIgMS4yOTk4Miw1Ljc0Mzg4IC0xLjA3NSw3LjUyNXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" alt="icon" customsize="172" width="30" height="30" style= "background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;">
+                                                </div>
+                                            </div>
+                                            <div class="Box_Text">Oracle malfunctions</div>
+                                        </div>
+                                        <div class="Boxs_boxcontainer">
+                                            <div class="Boxs_iconsContainer">
+                                                <div class="Boxs_mainIcons">
+                                                    <img srcset="https://img.icons8.com/wired/344/unlock.png 2x" alt="icon" loading="lazy" style="width: 70px; height: 70px; filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(280deg) brightness(95%) contrast(105%);">
+                                                </div>
+                                                <div class="Boxs_shieldIcons">
+                                                    <img data-v-6abec664="" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0iIzMzMzMzMyI+PC9wYXRoPjxnIGZpbGw9IiMzNDk4ZGIiPjxwYXRoIGQ9Ik0xNDEuMzQxLDMxLjE2MDY3Yy0xNS45MzY4OSwtMy4yMDQ2OCAtMzEuMjcwMDYsLTguODk3NzggLTQ1LjQzNjY3LC0xNi44NzAzM2MtNi4xMTY3LC0zLjU4MzQzIC0xMy42OTE5NywtMy41ODM0MyAtMTkuODA4NjcsMGMtMTQuMTY2NjEsNy45NzI1NSAtMjkuNDk5NzgsMTMuNjY1NjYgLTQ1LjQzNjY3LDE2Ljg3MDMzYy05LjEyMDcsMS45MjQwNyAtMTUuNjY4NzEsOS45NDI3NyAtMTUuNzMwODMsMTkuMjY0djEyLjUyNzMzYzAuMDc0MjcsMzUuMjAxNjMgMTguMTc0MDMsNjcuOTEyMTEgNDcuOTU5MzMsODYuNjczNjdsMTIuNzA2NSw3Ljg4MzMzYzYuMzU2NTUsMy45Nzg2MiAxNC40MjY3OCwzLjk3ODYyIDIwLjc4MzMzLDBsMTIuNjk5MzMsLTcuODgzMzNjMjkuNzk5LC0xOC43NTMgNDcuOTEzMTQsLTUxLjQ2NTAyIDQ3Ljk5NTE3LC04Ni42NzM2N3YtMTIuNTI3MzNjLTAuMDYyMTIsLTkuMzIxMjMgLTYuNjEwMTMsLTE3LjMzOTkzIC0xNS43MzA4MywtMTkuMjY0ek0xMTAuNzI1LDc1Ljk2NjY3bC0yOC42NjY2NywyMS41Yy0wLjkzMTYsMC42OTU0OSAtMi4wNjI0MywxLjA3MjQzIC0zLjIyNSwxLjA3NWMtMS40MjU4NSwwLjAwMjcxIC0yLjc5MzU0LC0wLjU2NTAxIC0zLjc5ODMzLC0xLjU3NjY3bC0xNC4zMzMzMywtMTQuMzMzMzNjLTEuOTczNDEsLTIuMTE3ODIgLTEuOTE1MTgsLTUuNDE4MDcgMC4xMzE3MSwtNy40NjQ5NmMyLjA0Njg5LC0yLjA0Njg5IDUuMzQ3MTQsLTIuMTA1MTIgNy40NjQ5NiwtMC4xMzE3MWwxMS4wMzY2NywxMS4wMzY2N2wyNC45NCwtMTguNzA1YzIuMzc0ODIsLTEuNzgxMTIgNS43NDM4OCwtMS4yOTk4MiA3LjUyNSwxLjA3NWMxLjc4MTEyLDIuMzc0ODIgMS4yOTk4Miw1Ljc0Mzg4IC0xLjA3NSw3LjUyNXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" alt="icon" customsize="172" width="30" height="30" style= "background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;">
+                                                </div>
+                                            </div>
+                                            <div class="Box_Text">Custody risks</div>
+                                        </div>
+                                       </div>
+                                    </div>
+
+
+                                    <div class =" Boxs_responsiveOrder">
+                                        <div class="Boxs_boxContainer">
+                                            <div class="Boxs_iconsContainer">
+                                                <div class="Boxs_mainIcons">
+                                                    <img srcset="https://img.icons8.com/wired/344/document.png 2x" alt="smart contracts failures" loading="lazy" style="width: 50px; height: 50px; filter: invert(0%) sepia(6%) saturate(7500%) hue-rotate(288deg) brightness(93%) contrast(107%);">
+                                                </div>
+                                                <div class="Boxs_shieldIcons">
+                                                    <img data-v-6abec664="" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0iIzMzMzMzMyI+PC9wYXRoPjxnIGZpbGw9IiMzNDk4ZGIiPjxwYXRoIGQ9Ik0xNDEuMzQxLDMxLjE2MDY3Yy0xNS45MzY4OSwtMy4yMDQ2OCAtMzEuMjcwMDYsLTguODk3NzggLTQ1LjQzNjY3LC0xNi44NzAzM2MtNi4xMTY3LC0zLjU4MzQzIC0xMy42OTE5NywtMy41ODM0MyAtMTkuODA4NjcsMGMtMTQuMTY2NjEsNy45NzI1NSAtMjkuNDk5NzgsMTMuNjY1NjYgLTQ1LjQzNjY3LDE2Ljg3MDMzYy05LjEyMDcsMS45MjQwNyAtMTUuNjY4NzEsOS45NDI3NyAtMTUuNzMwODMsMTkuMjY0djEyLjUyNzMzYzAuMDc0MjcsMzUuMjAxNjMgMTguMTc0MDMsNjcuOTEyMTEgNDcuOTU5MzMsODYuNjczNjdsMTIuNzA2NSw3Ljg4MzMzYzYuMzU2NTUsMy45Nzg2MiAxNC40MjY3OCwzLjk3ODYyIDIwLjc4MzMzLDBsMTIuNjk5MzMsLTcuODgzMzNjMjkuNzk5LC0xOC43NTMgNDcuOTEzMTQsLTUxLjQ2NTAyIDQ3Ljk5NTE3LC04Ni42NzM2N3YtMTIuNTI3MzNjLTAuMDYyMTIsLTkuMzIxMjMgLTYuNjEwMTMsLTE3LjMzOTkzIC0xNS43MzA4MywtMTkuMjY0ek0xMTAuNzI1LDc1Ljk2NjY3bC0yOC42NjY2NywyMS41Yy0wLjkzMTYsMC42OTU0OSAtMi4wNjI0MywxLjA3MjQzIC0zLjIyNSwxLjA3NWMtMS40MjU4NSwwLjAwMjcxIC0yLjc5MzU0LC0wLjU2NTAxIC0zLjc5ODMzLC0xLjU3NjY3bC0xNC4zMzMzMywtMTQuMzMzMzNjLTEuOTczNDEsLTIuMTE3ODIgLTEuOTE1MTgsLTUuNDE4MDcgMC4xMzE3MSwtNy40NjQ5NmMyLjA0Njg5LC0yLjA0Njg5IDUuMzQ3MTQsLTIuMTA1MTIgNy40NjQ5NiwtMC4xMzE3MWwxMS4wMzY2NywxMS4wMzY2N2wyNC45NCwtMTguNzA1YzIuMzc0ODIsLTEuNzgxMTIgNS43NDM4OCwtMS4yOTk4MiA3LjUyNSwxLjA3NWMxLjc4MTEyLDIuMzc0ODIgMS4yOTk4Miw1Ljc0Mzg4IC0xLjA3NSw3LjUyNXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" alt="icon" customsize="172" width="30" height="30" style= "background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;">
+                                                </div>
+                                            </div>
+                                            <div class="Boxs_text">Smart-contracts failures</div>
+                                           </div>                                 
+                                        
+                                        <div class="Boxs_boxcontainer">
+                                            <div class="Boxs_iconsContainer">
+                                                <div class="Boxs_mainIcons">
+                                                    <img srcset="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/344/external-target-finance-kiranshastry-lineal-kiranshastry-1.png 2x" alt="icon" loading="lazy" style="width: 60px; height: 60px; filter: invert(0%) sepia(1%) saturate(7456%) hue-rotate(2deg) brightness(81%) contrast(97%);">
+                                                </div>
+                                                <div class="Boxs_shieldIcons">
+                                                    <img data-v-6abec664="" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0iIzMzMzMzMyI+PC9wYXRoPjxnIGZpbGw9IiMzNDk4ZGIiPjxwYXRoIGQ9Ik0xNDEuMzQxLDMxLjE2MDY3Yy0xNS45MzY4OSwtMy4yMDQ2OCAtMzEuMjcwMDYsLTguODk3NzggLTQ1LjQzNjY3LC0xNi44NzAzM2MtNi4xMTY3LC0zLjU4MzQzIC0xMy42OTE5NywtMy41ODM0MyAtMTkuODA4NjcsMGMtMTQuMTY2NjEsNy45NzI1NSAtMjkuNDk5NzgsMTMuNjY1NjYgLTQ1LjQzNjY3LDE2Ljg3MDMzYy05LjEyMDcsMS45MjQwNyAtMTUuNjY4NzEsOS45NDI3NyAtMTUuNzMwODMsMTkuMjY0djEyLjUyNzMzYzAuMDc0MjcsMzUuMjAxNjMgMTguMTc0MDMsNjcuOTEyMTEgNDcuOTU5MzMsODYuNjczNjdsMTIuNzA2NSw3Ljg4MzMzYzYuMzU2NTUsMy45Nzg2MiAxNC40MjY3OCwzLjk3ODYyIDIwLjc4MzMzLDBsMTIuNjk5MzMsLTcuODgzMzNjMjkuNzk5LC0xOC43NTMgNDcuOTEzMTQsLTUxLjQ2NTAyIDQ3Ljk5NTE3LC04Ni42NzM2N3YtMTIuNTI3MzNjLTAuMDYyMTIsLTkuMzIxMjMgLTYuNjEwMTMsLTE3LjMzOTkzIC0xNS43MzA4MywtMTkuMjY0ek0xMTAuNzI1LDc1Ljk2NjY3bC0yOC42NjY2NywyMS41Yy0wLjkzMTYsMC42OTU0OSAtMi4wNjI0MywxLjA3MjQzIC0zLjIyNSwxLjA3NWMtMS40MjU4NSwwLjAwMjcxIC0yLjc5MzU0LC0wLjU2NTAxIC0zLjc5ODMzLC0xLjU3NjY3bC0xNC4zMzMzMywtMTQuMzMzMzNjLTEuOTczNDEsLTIuMTE3ODIgLTEuOTE1MTgsLTUuNDE4MDcgMC4xMzE3MSwtNy40NjQ5NmMyLjA0Njg5LC0yLjA0Njg5IDUuMzQ3MTQsLTIuMTA1MTIgNy40NjQ5NiwtMC4xMzE3MWwxMS4wMzY2NywxMS4wMzY2N2wyNC45NCwtMTguNzA1YzIuMzc0ODIsLTEuNzgxMTIgNS43NDM4OCwtMS4yOTk4MiA3LjUyNSwxLjA3NWMxLjc4MTEyLDIuMzc0ODIgMS4yOTk4Miw1Ljc0Mzg4IC0xLjA3NSw3LjUyNXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" alt="icon" customsize="172" width="30" height="30" style= "background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;">
+                                                </div>
+                                            </div>
+                                            <div class="Box_Text">Exchange hacks</div>
+                                        </div>
+                                        <div class="Boxs_boxContainer">
+                                            <div class="Boxs_iconsContainer">
+                                                <div class="Boxs_mainIcons">
+                                                    <img srcset="https://img.icons8.com/external-fauzidea-gradient-fauzidea/344/external-atom-back-to-school-fauzidea-gradient-fauzidea.png 2x" alt="icon" loading="lazy" style="  width:60px; height:60px;">
+                                                </div>
+                                                <div class="Boxs_shieldIcons">
+                                                    <img data-v-6abec664="" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0iIzMzMzMzMyI+PC9wYXRoPjxnIGZpbGw9IiMzNDk4ZGIiPjxwYXRoIGQ9Ik0xNDEuMzQxLDMxLjE2MDY3Yy0xNS45MzY4OSwtMy4yMDQ2OCAtMzEuMjcwMDYsLTguODk3NzggLTQ1LjQzNjY3LC0xNi44NzAzM2MtNi4xMTY3LC0zLjU4MzQzIC0xMy42OTE5NywtMy41ODM0MyAtMTkuODA4NjcsMGMtMTQuMTY2NjEsNy45NzI1NSAtMjkuNDk5NzgsMTMuNjY1NjYgLTQ1LjQzNjY3LDE2Ljg3MDMzYy05LjEyMDcsMS45MjQwNyAtMTUuNjY4NzEsOS45NDI3NyAtMTUuNzMwODMsMTkuMjY0djEyLjUyNzMzYzAuMDc0MjcsMzUuMjAxNjMgMTguMTc0MDMsNjcuOTEyMTEgNDcuOTU5MzMsODYuNjczNjdsMTIuNzA2NSw3Ljg4MzMzYzYuMzU2NTUsMy45Nzg2MiAxNC40MjY3OCwzLjk3ODYyIDIwLjc4MzMzLDBsMTIuNjk5MzMsLTcuODgzMzNjMjkuNzk5LC0xOC43NTMgNDcuOTEzMTQsLTUxLjQ2NTAyIDQ3Ljk5NTE3LC04Ni42NzM2N3YtMTIuNTI3MzNjLTAuMDYyMTIsLTkuMzIxMjMgLTYuNjEwMTMsLTE3LjMzOTkzIC0xNS43MzA4MywtMTkuMjY0ek0xMTAuNzI1LDc1Ljk2NjY3bC0yOC42NjY2NywyMS41Yy0wLjkzMTYsMC42OTU0OSAtMi4wNjI0MywxLjA3MjQzIC0zLjIyNSwxLjA3NWMtMS40MjU4NSwwLjAwMjcxIC0yLjc5MzU0LC0wLjU2NTAxIC0zLjc5ODMzLC0xLjU3NjY3bC0xNC4zMzMzMywtMTQuMzMzMzNjLTEuOTczNDEsLTIuMTE3ODIgLTEuOTE1MTgsLTUuNDE4MDcgMC4xMzE3MSwtNy40NjQ5NmMyLjA0Njg5LC0yLjA0Njg5IDUuMzQ3MTQsLTIuMTA1MTIgNy40NjQ5NiwtMC4xMzE3MWwxMS4wMzY2NywxMS4wMzY2N2wyNC45NCwtMTguNzA1YzIuMzc0ODIsLTEuNzgxMTIgNS43NDM4OCwtMS4yOTk4MiA3LjUyNSwxLjA3NWMxLjc4MTEyLDIuMzc0ODIgMS4yOTk4Miw1Ljc0Mzg4IC0xLjA3NSw3LjUyNXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" alt="icon" customsize="172" width="30" height="30" style= "background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;">
+                                                </div>
+                                            </div>
+                                            <div class="Box_Text">Validators Slashing</div>
+                                        </div>
+
+                                         <div class="Boxs_boxcontainer">
+                                    <div class="Boxs_iconsContainer">
+                                        <div class="Boxs_mainIcons">
+                                            <img src="https://img.icons8.com/external-icons-smashing-stocks/68/000000/external-Wallet-bank-icons-icons-smashing-stocks.png"/>
+                                        </div>
+                                        <div class="Boxs_shieldIcons">
+                                            <img data-v-6abec664="" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0iIzMzMzMzMyI+PC9wYXRoPjxnIGZpbGw9IiMzNDk4ZGIiPjxwYXRoIGQ9Ik0xNDEuMzQxLDMxLjE2MDY3Yy0xNS45MzY4OSwtMy4yMDQ2OCAtMzEuMjcwMDYsLTguODk3NzggLTQ1LjQzNjY3LC0xNi44NzAzM2MtNi4xMTY3LC0zLjU4MzQzIC0xMy42OTE5NywtMy41ODM0MyAtMTkuODA4NjcsMGMtMTQuMTY2NjEsNy45NzI1NSAtMjkuNDk5NzgsMTMuNjY1NjYgLTQ1LjQzNjY3LDE2Ljg3MDMzYy05LjEyMDcsMS45MjQwNyAtMTUuNjY4NzEsOS45NDI3NyAtMTUuNzMwODMsMTkuMjY0djEyLjUyNzMzYzAuMDc0MjcsMzUuMjAxNjMgMTguMTc0MDMsNjcuOTEyMTEgNDcuOTU5MzMsODYuNjczNjdsMTIuNzA2NSw3Ljg4MzMzYzYuMzU2NTUsMy45Nzg2MiAxNC40MjY3OCwzLjk3ODYyIDIwLjc4MzMzLDBsMTIuNjk5MzMsLTcuODgzMzNjMjkuNzk5LC0xOC43NTMgNDcuOTEzMTQsLTUxLjQ2NTAyIDQ3Ljk5NTE3LC04Ni42NzM2N3YtMTIuNTI3MzNjLTAuMDYyMTIsLTkuMzIxMjMgLTYuNjEwMTMsLTE3LjMzOTkzIC0xNS43MzA4MywtMTkuMjY0ek0xMTAuNzI1LDc1Ljk2NjY3bC0yOC42NjY2NywyMS41Yy0wLjkzMTYsMC42OTU0OSAtMi4wNjI0MywxLjA3MjQzIC0zLjIyNSwxLjA3NWMtMS40MjU4NSwwLjAwMjcxIC0yLjc5MzU0LC0wLjU2NTAxIC0zLjc5ODMzLC0xLjU3NjY3bC0xNC4zMzMzMywtMTQuMzMzMzNjLTEuOTczNDEsLTIuMTE3ODIgLTEuOTE1MTgsLTUuNDE4MDcgMC4xMzE3MSwtNy40NjQ5NmMyLjA0Njg5LC0yLjA0Njg5IDUuMzQ3MTQsLTIuMTA1MTIgNy40NjQ5NiwtMC4xMzE3MWwxMS4wMzY2NywxMS4wMzY2N2wyNC45NCwtMTguNzA1YzIuMzc0ODIsLTEuNzgxMTIgNS43NDM4OCwtMS4yOTk4MiA3LjUyNSwxLjA3NWMxLjc4MTEyLDIuMzc0ODIgMS4yOTk4Miw1Ljc0Mzg4IC0xLjA3NSw3LjUyNXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" alt="icon" customsize="172" width="30" height="30" style= "background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;">
+                                        </div>
+                                    </div>
+                                    <div class="Box_Text">Wallet Exploites</div>
+                                   </div>
+                                   <div class="Boxs_boxcontainer">
+                                    <div class="Boxs_iconsContainer">
+                                        <div class="Boxs_mainIcons">
+                                            <img srcset="https://img.icons8.com/external-icongeek26-outline-icongeek26/2x/external-coins-casino-icongeek26-outline-icongeek26-1.png 2x" alt="Coins icon" loading="lazy" style="filter: invert(0%) sepia(67%) saturate(3612%) hue-rotate(218deg) brightness(107%) contrast(108%);">
+                                        </div>
+                                        <div class="Boxs_shieldIcons">
+                                            <img data-v-6abec664="" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0iIzMzMzMzMyI+PC9wYXRoPjxnIGZpbGw9IiMzNDk4ZGIiPjxwYXRoIGQ9Ik0xNDEuMzQxLDMxLjE2MDY3Yy0xNS45MzY4OSwtMy4yMDQ2OCAtMzEuMjcwMDYsLTguODk3NzggLTQ1LjQzNjY3LC0xNi44NzAzM2MtNi4xMTY3LC0zLjU4MzQzIC0xMy42OTE5NywtMy41ODM0MyAtMTkuODA4NjcsMGMtMTQuMTY2NjEsNy45NzI1NSAtMjkuNDk5NzgsMTMuNjY1NjYgLTQ1LjQzNjY3LDE2Ljg3MDMzYy05LjEyMDcsMS45MjQwNyAtMTUuNjY4NzEsOS45NDI3NyAtMTUuNzMwODMsMTkuMjY0djEyLjUyNzMzYzAuMDc0MjcsMzUuMjAxNjMgMTguMTc0MDMsNjcuOTEyMTEgNDcuOTU5MzMsODYuNjczNjdsMTIuNzA2NSw3Ljg4MzMzYzYuMzU2NTUsMy45Nzg2MiAxNC40MjY3OCwzLjk3ODYyIDIwLjc4MzMzLDBsMTIuNjk5MzMsLTcuODgzMzNjMjkuNzk5LC0xOC43NTMgNDcuOTEzMTQsLTUxLjQ2NTAyIDQ3Ljk5NTE3LC04Ni42NzM2N3YtMTIuNTI3MzNjLTAuMDYyMTIsLTkuMzIxMjMgLTYuNjEwMTMsLTE3LjMzOTkzIC0xNS43MzA4MywtMTkuMjY0ek0xMTAuNzI1LDc1Ljk2NjY3bC0yOC42NjY2NywyMS41Yy0wLjkzMTYsMC42OTU0OSAtMi4wNjI0MywxLjA3MjQzIC0zLjIyNSwxLjA3NWMtMS40MjU4NSwwLjAwMjcxIC0yLjc5MzU0LC0wLjU2NTAxIC0zLjc5ODMzLC0xLjU3NjY3bC0xNC4zMzMzMywtMTQuMzMzMzNjLTEuOTczNDEsLTIuMTE3ODIgLTEuOTE1MTgsLTUuNDE4MDcgMC4xMzE3MSwtNy40NjQ5NmMyLjA0Njg5LC0yLjA0Njg5IDUuMzQ3MTQsLTIuMTA1MTIgNy40NjQ5NiwtMC4xMzE3MWwxMS4wMzY2NywxMS4wMzY2N2wyNC45NCwtMTguNzA1YzIuMzc0ODIsLTEuNzgxMTIgNS43NDM4OCwtMS4yOTk4MiA3LjUyNSwxLjA3NWMxLjc4MTEyLDIuMzc0ODIgMS4yOTk4Miw1Ljc0Mzg4IC0xLjA3NSw3LjUyNXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" alt="icon" customsize="172" width="30" height="30" style= "background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;">
+                                        </div>
+                                    </div>
+                                    <div class="Box_Text">Stablecoin pegs</div>
+                                   </div>
+                                   <div class="Boxs_boxcontainer">
+                                    <div class="Boxs_iconsContainer">
+                                        <div class="Boxs_mainIcons">
+                                            <img srcset="https://img.icons8.com/carbon-copy/344/visible.png 2x" alt="icon" loading="lazy" style="width: 80px; height: 80px; filter: invert(0%) sepia(18%) saturate(7500%) hue-rotate(261deg) brightness(113%) contrast(100%);">
+                                        </div>
+                                        <div class="Boxs_shieldIcons">
+                                            <img data-v-6abec664="" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0iIzMzMzMzMyI+PC9wYXRoPjxnIGZpbGw9IiMzNDk4ZGIiPjxwYXRoIGQ9Ik0xNDEuMzQxLDMxLjE2MDY3Yy0xNS45MzY4OSwtMy4yMDQ2OCAtMzEuMjcwMDYsLTguODk3NzggLTQ1LjQzNjY3LC0xNi44NzAzM2MtNi4xMTY3LC0zLjU4MzQzIC0xMy42OTE5NywtMy41ODM0MyAtMTkuODA4NjcsMGMtMTQuMTY2NjEsNy45NzI1NSAtMjkuNDk5NzgsMTMuNjY1NjYgLTQ1LjQzNjY3LDE2Ljg3MDMzYy05LjEyMDcsMS45MjQwNyAtMTUuNjY4NzEsOS45NDI3NyAtMTUuNzMwODMsMTkuMjY0djEyLjUyNzMzYzAuMDc0MjcsMzUuMjAxNjMgMTguMTc0MDMsNjcuOTEyMTEgNDcuOTU5MzMsODYuNjczNjdsMTIuNzA2NSw3Ljg4MzMzYzYuMzU2NTUsMy45Nzg2MiAxNC40MjY3OCwzLjk3ODYyIDIwLjc4MzMzLDBsMTIuNjk5MzMsLTcuODgzMzNjMjkuNzk5LC0xOC43NTMgNDcuOTEzMTQsLTUxLjQ2NTAyIDQ3Ljk5NTE3LC04Ni42NzM2N3YtMTIuNTI3MzNjLTAuMDYyMTIsLTkuMzIxMjMgLTYuNjEwMTMsLTE3LjMzOTkzIC0xNS43MzA4MywtMTkuMjY0ek0xMTAuNzI1LDc1Ljk2NjY3bC0yOC42NjY2NywyMS41Yy0wLjkzMTYsMC42OTU0OSAtMi4wNjI0MywxLjA3MjQzIC0zLjIyNSwxLjA3NWMtMS40MjU4NSwwLjAwMjcxIC0yLjc5MzU0LC0wLjU2NTAxIC0zLjc5ODMzLC0xLjU3NjY3bC0xNC4zMzMzMywtMTQuMzMzMzNjLTEuOTczNDEsLTIuMTE3ODIgLTEuOTE1MTgsLTUuNDE4MDcgMC4xMzE3MSwtNy40NjQ5NmMyLjA0Njg5LC0yLjA0Njg5IDUuMzQ3MTQsLTIuMTA1MTIgNy40NjQ5NiwtMC4xMzE3MWwxMS4wMzY2NywxMS4wMzY2N2wyNC45NCwtMTguNzA1YzIuMzc0ODIsLTEuNzgxMTIgNS43NDM4OCwtMS4yOTk4MiA3LjUyNSwxLjA3NWMxLjc4MTEyLDIuMzc0ODIgMS4yOTk4Miw1Ljc0Mzg4IC0xLjA3NSw3LjUyNXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" alt="icon" customsize="172" width="30" height="30" style= "background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;">
+                                        </div>
+                                    </div>
+                                    <div class="Box_Text">Oracle malfunctions</div>
+                                </div>
+                                <div class="Boxs_boxcontainer">
+                                    <div class="Boxs_iconsContainer">
+                                        <div class="Boxs_mainIcons">
+                                            <img srcset="https://img.icons8.com/wired/344/unlock.png 2x" alt="icon" loading="lazy" style="width: 70px; height: 70px; filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(280deg) brightness(95%) contrast(105%);">
+                                        </div>
+                                        <div class="Boxs_shieldIcons">
+                                            <img data-v-6abec664="" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0iIzMzMzMzMyI+PC9wYXRoPjxnIGZpbGw9IiMzNDk4ZGIiPjxwYXRoIGQ9Ik0xNDEuMzQxLDMxLjE2MDY3Yy0xNS45MzY4OSwtMy4yMDQ2OCAtMzEuMjcwMDYsLTguODk3NzggLTQ1LjQzNjY3LC0xNi44NzAzM2MtNi4xMTY3LC0zLjU4MzQzIC0xMy42OTE5NywtMy41ODM0MyAtMTkuODA4NjcsMGMtMTQuMTY2NjEsNy45NzI1NSAtMjkuNDk5NzgsMTMuNjY1NjYgLTQ1LjQzNjY3LDE2Ljg3MDMzYy05LjEyMDcsMS45MjQwNyAtMTUuNjY4NzEsOS45NDI3NyAtMTUuNzMwODMsMTkuMjY0djEyLjUyNzMzYzAuMDc0MjcsMzUuMjAxNjMgMTguMTc0MDMsNjcuOTEyMTEgNDcuOTU5MzMsODYuNjczNjdsMTIuNzA2NSw3Ljg4MzMzYzYuMzU2NTUsMy45Nzg2MiAxNC40MjY3OCwzLjk3ODYyIDIwLjc4MzMzLDBsMTIuNjk5MzMsLTcuODgzMzNjMjkuNzk5LC0xOC43NTMgNDcuOTEzMTQsLTUxLjQ2NTAyIDQ3Ljk5NTE3LC04Ni42NzM2N3YtMTIuNTI3MzNjLTAuMDYyMTIsLTkuMzIxMjMgLTYuNjEwMTMsLTE3LjMzOTkzIC0xNS43MzA4MywtMTkuMjY0ek0xMTAuNzI1LDc1Ljk2NjY3bC0yOC42NjY2NywyMS41Yy0wLjkzMTYsMC42OTU0OSAtMi4wNjI0MywxLjA3MjQzIC0zLjIyNSwxLjA3NWMtMS40MjU4NSwwLjAwMjcxIC0yLjc5MzU0LC0wLjU2NTAxIC0zLjc5ODMzLC0xLjU3NjY3bC0xNC4zMzMzMywtMTQuMzMzMzNjLTEuOTczNDEsLTIuMTE3ODIgLTEuOTE1MTgsLTUuNDE4MDcgMC4xMzE3MSwtNy40NjQ5NmMyLjA0Njg5LC0yLjA0Njg5IDUuMzQ3MTQsLTIuMTA1MTIgNy40NjQ5NiwtMC4xMzE3MWwxMS4wMzY2NywxMS4wMzY2N2wyNC45NCwtMTguNzA1YzIuMzc0ODIsLTEuNzgxMTIgNS43NDM4OCwtMS4yOTk4MiA3LjUyNSwxLjA3NWMxLjc4MTEyLDIuMzc0ODIgMS4yOTk4Miw1Ljc0Mzg4IC0xLjA3NSw3LjUyNXoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" alt="icon" customsize="172" width="30" height="30" style= "background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;">
+                                        </div>
+                                    </div>
+                                    <div class="Box_Text">Custody risks</div>
+                                </div>
+                                <div class="Boxs_learn_Border">
+                                    <div class="Boxs_learn_Container">
+                                        <span class="Boxs_learn_Text">
+                                           " Learn about the"
+                                            <span style="font-weight: 800px">Spartan Bucket</span>
+                                            "and how it works"
+                                        </span>
+                                        <div class="Boxs_CTAContainer">
+                                            <img data-v-6abec664 src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiMyZWNjNzEiPjxwYXRoIGQ9Ik04NiwxNC4zMzMzM2MtMzkuNTE2NzYsMCAtNzEuNjY2NjcsMzIuMTQ5OTMgLTcxLjY2NjY3LDcxLjY2NjY3YzAsMzkuNTE2NzMgMzIuMTQ5OSw3MS42NjY2NyA3MS42NjY2Nyw3MS42NjY2N2MzOS41MTY3NiwwIDcxLjY2NjY3LC0zMi4xNDk5MyA3MS42NjY2NywtNzEuNjY2NjdjMCwtMzkuNTE2NzMgLTMyLjE0OTksLTcxLjY2NjY3IC03MS42NjY2NywtNzEuNjY2Njd6TTg2LDI1LjA4MzMzYzMzLjcwNzA0LDAgNjAuOTE2NjcsMjcuMjA5NjUgNjAuOTE2NjcsNjAuOTE2NjdjMCwzMy43MDcwMiAtMjcuMjA5NjMsNjAuOTE2NjcgLTYwLjkxNjY3LDYwLjkxNjY3Yy0zMy43MDcwNCwwIC02MC45MTY2NywtMjcuMjA5NjUgLTYwLjkxNjY3LC02MC45MTY2N2MwLC0zMy43MDcwMiAyNy4yMDk2MywtNjAuOTE2NjcgNjAuOTE2NjcsLTYwLjkxNjY3ek0xMDIuMDIwMDIsNjQuNDUxMDFjLTAuMTk0MzcsMC4wMDU4MSAtMC4zODgyOSwwLjAyMjE3IC0wLjU4MDg5LDAuMDQ4OTloLTI3Ljk4MDhjLTEuOTM4NDIsLTAuMDI3NDEgLTMuNzQxNDQsMC45OTEwMiAtNC43MTg2NSwyLjY2NTMyYy0wLjk3NzIxLDEuNjc0MyAtMC45NzcyMSwzLjc0NTA3IDAsNS40MTkzN2MwLjk3NzIxLDEuNjc0MyAyLjc4MDIzLDIuNjkyNzMgNC43MTg2NSwyLjY2NTMyaDE1LjY5MTA4bC0yNi42NTgwNCwyNi42NTgwNGMtMS40MDQxMiwxLjM0ODE1IC0xLjk2OTcxLDMuMzUwMDUgLTEuNDc4NjYsNS4yMzM2NGMwLjQ5MTA1LDEuODgzNTkgMS45NjIwMiwzLjM1NDU2IDMuODQ1NjEsMy44NDU2MWMxLjg4MzU5LDAuNDkxMDUgMy44ODU0OSwtMC4wNzQ1NSA1LjIzMzY0LC0xLjQ3ODY2bDI2LjY1ODA0LC0yNi42NTgwNHYxNS42OTEwOGMtMC4wMjc0MSwxLjkzODQyIDAuOTkxMDIsMy43NDE0NCAyLjY2NTMyLDQuNzE4NjVjMS42NzQzLDAuOTc3MjEgMy43NDUwNywwLjk3NzIxIDUuNDE5MzcsMGMxLjY3NDMsLTAuOTc3MjEgMi42OTI3MywtMi43ODAyMyAyLjY2NTMyLC00LjcxODY1di0yNy45ODc3OWMwLjIxNDQxLC0xLjU2NTIzIC0wLjI3MDU4LC0zLjE0NTUzIC0xLjMyNjA5LC00LjMyMTAyYy0xLjA1NTUyLC0xLjE3NTQ5IC0yLjU3NDY5LC0xLjgyNzE2IC00LjE1Mzg5LC0xLjc4MTg0eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+" alt="icon" customsize="172" width="25" height="30" style="background: linear-gradient(182.13deg,rgba(189,179,255,.2) -21.81%,rgba(189,179,255,0) 104.23%); border-radius: 10px; backdrop-filter:blur(10px) ;">
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="Partnerships_container">
+                                <div class="Partnerships_headline">
+                                    <span class="h6">Signal Strength</span>
+                                    <h2 class="Partnerships_title">Insurence for protocals, DAO's and instituions</h2>
+                                    <P class="Partnerships_paragraph">The Unslashed Finance protocol insures some of the most respected entities in the DeFi movement.</P>
+                                </div>
+                                <div class="Brands_container">
+                                    <div class="Brands_gridContainer">
+                                        <div class="Brands_brand">
+                                            <div class="Brands_withGradient">
+                                                <div class="GradiantBorder_container">
+                                                    <div class="GradiantBorder_innercontainer">
+                                                        <div class="Brands_brandContainer">
+                                                            <div class="Brands_logoWithText">                                                                
+                                                               <div class="Brands_logoContainer">
+                                                               <img src="https://icodrops.com/wp-content/uploads/2020/10/ParaSwap_logo.png" alt="See the source image" class=" nofocus" tabindex="0" aria-label="See the source image" data-bm="355" width="50px" height="50px" border-radius="">
+                                                               </div>
+                                                               <span class="h5 Brands_name">Paraswap</span>
+                                                            </div>
+                                                            <div class="Brands_learnMoreContainer">
+                                                                <span class="Brands_learnMore">Learn more</span>
+                                                                <img src="https://img.icons8.com/external-those-icons-flat-those-icons/24/000000/external-Arrow-arrows-those-icons-flat-those-icons-19.png"width="15" height="15" style="fill: rgb(119, 113,135);"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="Brands_noGradient"></div>
+                                        </div>
+                                        <div class="Brands_brand">
+                                            <div class="Brands_withGradient">
+                                                <div class="GradiantBorder_container">
+                                                    <div class="GradiantBorder_innercontainer">
+                                                        <div class="Brands_brandContainer">
+                                                            <div class="Brands_logoWithText">                                                                
+                                                               <div class="Brands_logoContainer">
+                                                                <img src="https://cdn-images-1.medium.com/max/1200/1*T-QT2bI8iLtpc8YtoVoD3A.png" alt="See the source image" class=" nofocus" tabindex="0" aria-label="See the source image" width="50px" height="50px">
+                                                               </div>
+                                                               <span class="h5 Brands_name">Lido</span>
+                                                            </div>
+                                                            <div class="Brands_learnMoreContainer">
+                                                                <span class="Brands_learnMore">Learn more</span>
+                                                                <img src="https://img.icons8.com/external-those-icons-flat-those-icons/24/000000/external-Arrow-arrows-those-icons-flat-those-icons-19.png"width="15" height="15" style="fill: rgb(119, 113,135);"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="Brands_noGradient"></div>
+                                        </div>
+                                        <div class="Brands_brand">
+                                            <div class="Brands_withGradient">
+                                                <div class="GradiantBorder_container">
+                                                    <div class="GradiantBorder_innercontainer">
+                                                        <div class="Brands_brandContainer">
+                                                            <div class="Brands_logoWithText">                                                                
+                                                               <div class="Brands_logoContainer">
+                                                                <img src="https://yourcryptolibrary.com/wp-content/uploads/2021/03/kyber-network-knc-logo.png" alt="See the source image" class=" nofocus" tabindex="0" aria-label="See the source image" data-bm="78" width="50px" height="50px">
+                                                               </div>
+                                                               <span class="h5 Brands_name">KYBER network</span>
+                                                            </div>
+                                                            <div class="Brands_learnMoreContainer">
+                                                                <span class="Brands_learnMore">Learn more</span>
+                                                                <img src="https://img.icons8.com/external-those-icons-flat-those-icons/24/000000/external-Arrow-arrows-those-icons-flat-those-icons-19.png"width="15" height="15" style="fill: rgb(119, 113,135);"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="Brands_noGradient"></div>
+                                        </div>
+                                        <div class="Brands_brand">
+                                            <div class="Brands_withGradient">
+                                                <div class="GradiantBorder_container">
+                                                    <div class="GradiantBorder_innercontainer">
+                                                        <div class="Brands_brandContainer">
+                                                            <div class="Brands_logoWithText">                                                                
+                                                               <div class="Brands_logoContainer">
+                                                                <img src="https://media.blockfolio.com/783c57a9706d7e99a8640693c28c33dd7e294d7d_1614088022852.png" alt="See the source image" class=" nofocus" tabindex="0" aria-label="See the source image" data-bm="6" width="50px" height="50px">
+                                                               </div>
+                                                               <span class="h5 Brands_name">Enzyme Finance</span>
+                                                            </div>
+                                                            <div class="Brands_learnMoreContainer">
+                                                                <span class="Brands_learnMore">Learn more</span>
+                                                                <img src="https://img.icons8.com/external-those-icons-flat-those-icons/24/000000/external-Arrow-arrows-those-icons-flat-those-icons-19.png" width="15" height="15" style="fill: rgb(119, 113,135);"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="Brands_noGradient"></div>
+                                        </div>
+                                        <div class="Brands_brand">
+                                            <div class="Brands_withGradient">
+                                                <div class="GradiantBorder_container">
+                                                    <div class="GradiantBorder_innercontainer">
+                                                        <div class="Brands_brandContainer">
+                                                            <div class="Brands_logoWithText">                                                                
+                                                               <div class="Brands_logoContainer">
+                                                                <img src="https://www.automile.nz/wp-content/uploads/techemy_capital.png" alt="See the source image" class=" nofocus" tabindex="0" aria-label="See the source image" width="50px" height="50px" >
+                                                               </div>
+                                                               <span class="h5 Brands_name">Techemy capital</span>
+                                                            </div>
+                                                            <div class="Brands_learnMoreContainer">
+                                                                <span class="Brands_learnMore">Learn more</span>
+                                                                <img src="https://img.icons8.com/external-those-icons-flat-those-icons/24/000000/external-Arrow-arrows-those-icons-flat-those-icons-19.png"width="15" height="15" style="fill: rgb(119, 113,135);"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="Brands_noGradient"></div>
+                                        </div>
+                                        <div class="Brands_brand">
+                                            <div class="Brands_withGradient">
+                                                <div class="GradiantBorder_container">
+                                                    <div class="GradiantBorder_innercontainer">
+                                                        <div class="Brands_brandContainer">
+                                                            <div class="Brands_logoWithText">                                                                
+                                                               <div class="Brands_logoContainer">
+                                                                <img src="https://img0.etsystatic.com/037/0/7355084/il_570xN.601791104_a3ep.jpg" alt="See the source image" class=" nofocus" tabindex="0" aria-label="See the source image" data-bm="101" width="50px" height="50px">
+                                                               </div>
+                                                               <span class="h5 Brands_name">Apophis DeFi</span>
+                                                            </div>
+                                                            <div class="Brands_learnMoreContainer">
+                                                                <span class="Brands_learnMore">Learn more</span>
+                                                                <img src="https://img.icons8.com/external-those-icons-flat-those-icons/24/000000/external-Arrow-arrows-those-icons-flat-those-icons-19.png" width="15" height="15" style="fill: rgb(119, 113,135);" >
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="Brands_noGradient"></div>
+                                        </div>
+                                        
+                                    </div>
+                                    <span class="Brands_seeMore">See all</span>
+                                </div>
+                                <a href="https://blog.lido.fi/lido-unslashed-finance-partner-to-insure-ethereum-staking-service/  " class="Partnerships_readAboutContainer">
+                                    <span class="Partnerships_readAboutText">Read about our $200M partnership with Lido Finance</span>
+                                    <img src="https://img.icons8.com/flat-round/64/000000/circled-right-2--v1.png" width="30px" height="30px"/>
+                                    </a>
+                                    </div>
+                            <div class="Community_container">
+                              <div class="Community_headline">
+                                    <span class="h6">ACTIVE INVOLVEMENT</span>
+                                    <h2 class="Community_title">Participate in the Community</h2>
+                                    <p class=" Community_paragraph">Choose your level of engagement. You can supply capital to earn yield, govern the protocol, or build on top of it.</p>
+                                </div>
+                                <div class="Community_boxs">
+                                    <div class="Community_leftBox">
+                                        <div class="Community_earnYieldContainer">
+                                            <div class="Community_earnYieldImage">
+                                                <img src="https://img.icons8.com/external-icongeek26-outline-colour-icongeek26/64/000000/external-coins-currency-icongeek26-outline-colour-icongeek26-5.png" width="170px"height="170px"/>
+                                            </div>
+                                            <div class="Community_yeildTitle">
+                                                <span class="Community_yeildtitleText">
+                                                  "Earn Yeild"
+                                                  <img src="https://img.icons8.com/fluency-systems-regular/48/000000/circled-up-right.png"/>
+                                                </span>
+                                                <span class="community_yeildParagraph">Suply capital earn upto 24% APy.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="Community_rightBox">
+                                        <a target="_blank" class="Community_developersMain">
+                                            <div class="GradiantBorder_container" style="display: radius 25px;">
+                                                <div class="GradiantBorder_innerContainer">
+                                                    <div class="Community_developersContainer">
+                                                        <div class="Community_developersLineGraphic">
+                                                            <div class="Community_BoxTitleContainer">
+                                                                <span class="Community_boxTitle">
+                                                                    "Developers"
+                                                                    <img>
+                                                                </span>
+                                                                <span class="Community_boxDescription">Build create and innovate</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                       <div class="GradiantBorder_container" style="display: radius 25px;">
+                                                <div class="GradiantBorder_innerContainer">
+                                                    <div class="Community_developersContainer">
+                                                        <div class="Community_developersLineGraphic">
+                                                            <div class="Community_BoxTitleContainer">
+                                                                <span class="Community_boxTitle">
+                                                                    "join the DAO"
+                                                                    <img>
+                                                                </span>
+                                                                <span class="Community_boxDescription">Shape the feature of insurence</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Team_container">
+                                <div class="Team_topContainer">
+                                    <div class="Team_headline">
+                                    <span class="h6">Dedicated Leadership</span>
+                                    <h2 class="Title_title">Built by a world class team</h2>
+                                    <div class="Team_CTAContainer">
+                                        <img src="https://img.icons8.com/flat-round/64/000000/long-arrow-left.png" width="30px" height="30px"/>
+                                        <img src="https://img.icons8.com/flat-round/64/000000/circled-right-2--v1.png" width="30px" height="30px"/>
+                                    </div>
+                                   </div>
+                                <div class="Team_slidebar">
+                                    <div class="TeamMember_sliderContainer">
+                                        <div class="Teammember_container">
+                                            <img class="TeamMember_avatar">
+                                            <span class="TeamMember_name">Dimitriy Remerov</span>
+                                            <span class="">FR</span>
+                                            <span class="Teammember_position">Protocol | Team Lead</span>
+                                            <p class="TeamMember_description">Sr. Software Engineer, Architect and Product Manager with 13 years of experience, Dimitriy is also a Crypto Early Adopter, joining the space in 2013.</p>
+                                              <img class="TeamMember_linkedInLogo"src="https://img.icons8.com/small/16/000000/linkedin.png" width="30px" height="30px">
+                                        </div>
+                                        <div class="Teammember_container">
+                                            <img class="TeamMember_avatar">
+                                            <span class="TeamMember_name">Marouane Hajji</span>
+                                            <span class="">NL</span>
+                                            <span class="Teammember_position">Product Lead</span>
+                                            <p class="TeamMember_description">Prev. in TradFi and turned Serial Entrepreneur. Marouane fell in love with Ethereum & jumped on the opportunity to contribute & buidl a New Financial System.</p>
+                                            <img class="TeamMember_linkedInLogo"src="https://img.icons8.com/small/16/000000/linkedin.png" width="30px" height="30px">
+                                        </div>
+                                        <div class="Teammember_container Team_memberInvisible">
+                                            <img class="TeamMember_avatar">
+                                            <span class="TeamMember_name">Dominik Franek</span>
+                                            <span class="">CZ</span>
+                                            <span class="Teammember_position">Senior Solidity Engineer</span>
+                                            <p class="TeamMember_description">Tech enthusiast and business strategist. Dominik has done development of games, AI, robots, space tech and blockchain, as well as strategy for startups.</p>
+                                            <img class="TeamMember_linkedInLogo"src="https://img.icons8.com/small/16/000000/linkedin.png" width="30px" height="30px">
+                                        </div>
+                                        <div class="Teammember_container Team_memberInvisible">
+                                            <img class="TeamMember_avatar">
+                                            <span class="TeamMember_name">Peter Uljvari</span>
+                                            <span class="">DK</span>
+                                            <span class="Teammember_position">Senior Solidity Engineer</span>
+                                            <p class="TeamMember_description">Founder at heart, Peter got into smart contract development in 2015, worked on several projects including MakerDAO and tired himself at teaching Solidity.</p>
+                                            <img class="TeamMember_linkedInLogo"src="https://img.icons8.com/small/16/000000/linkedin.png" width="30px" height="30px">
+                                        </div>
+                                        <div class="Teammember_container Team_memberInvisible">
+                                            <img class="TeamMember_avatar">
+                                            <span class="TeamMember_name">Adrian Tombu</span>
+                                            <span class="">FR</span>
+                                            <span class="Teammember_position">Lead Front End Engineer</span>
+                                            <p class="TeamMember_description">Senior full-stack engineer for +12 years and in the crypto world since early 2017, Adrian lived many lives as a freelancer and is excited to go full steam on DeFi.</p>
+                                            <img class="TeamMember_linkedInLogo"src="https://img.icons8.com/small/16/000000/linkedin.png" width="30px" height="30px">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="Team_workedOnContainer">
+                                    <span class="Team_workedAtText">
+                                        <div class="Team_line"></div>
+                                       " we've worked at top tier companies like:"
+                                    </span>
+                                    <div class="Team_companies">
+                                        <img   class="Team_companyLogo" src="https://europe-re.com/uploads/europe/post_cover_images/66267/cover-66267.jpg" alt="See the source image" class=" nofocus" tabindex="0" aria-label="See the source image" width="90px" height="70px">
+                                        <img   class="Team_companyLogo" src="https://img.icons8.com/nolan/64/citibank.png"/>
+                                        <img class="Team_companyLogo"  src="https://i.pinimg.com/736x/fa/fc/b1/fafcb104c720cd04224445f0c72df10f.jpg" alt="See the source image" class=" nofocus" tabindex="0" aria-label="See the source image" width="80px" height="80px">
+                                       <img  class="Team_companyLogo"  src="https://coderdojosligo.files.wordpress.com/2014/01/eventbrite-logo.jpg" alt="See the source image" class=" nofocus" tabindex="0" aria-label="See the source image" data-bm="106" width="120px" height="70px">
+                                       <img  class="Team_companyLogo"  src="https://www.startupjobs.cz/uploads/f4698f8c357d87e436e0ad97ef5bcf23.png" alt="See the source image" class=" nofocus" tabindex="0" aria-label="See the source image" width="126px" height="70px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Testimonials_container">
+                                <span class="Testimonials_title">What people say about Unslashed</span>
+                                <div class="Testimonials_slidebar">
+                                    <div class="Testimonials_caretcontainer"></div>
+                                    <div class="Testimonials_sliderMainContaine">
+                                        <div class="Testimonials_sliderContentWrapper">
+                                            <div>
+                                                <div class="Testimonials_boxContainer">
+                                                    <div class="Testimonials_innerBox">
+                                                        <div class="Testimonials_avatarBox">
+                                                            <img>
+                                                            <div class="Testimonials_personData">
+                                                                <span class="Testimonials_personName">Mounir Benchemled</span>
+                                                                <span class="Testimonials_personPosition">
+                                                                    <span class="Testimonials_personPosition">
+                                                                       " CEO at"
+                                                                       <span class="Testimonials_personCompany">Paraswap.io</span>
+                                                                    </span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="Testimonials_boxParagraph" >"Over the last year, the team behind Unslashed has combined their Tech and Finance expertise to build one of the most sophisticated yet easy to use insurance product in the DeFi space. I am excited to see their efforts come to fruition!"</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="Testimonials_boxContainer">
+                                                    <div class="Testimonials_innerBox">
+                                                        <div class="Testimonials_avatarBox">
+                                                            <img>
+                                                            <div class="Testimonials_personData">
+                                                                <span class="Testimonials_personName">Mona El Isa</span>
+                                                                <span class="Testimonials_personPosition">
+                                                                    <span class="Testimonials_personPosition">
+                                                                       " CEO at"
+                                                                       <span class="Testimonials_personCompany"> Avantgarde Finance</span>
+                                                                    </span>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="Testimonials_boxParagraph" >" In the history of trade, insurance has always removed some of the biggest frictions to trade and still does today. I’m super excited about Unslashed doing this for the crypto economy"</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            </div>
+                                        </div>
+                                    </div>
+                                  <div class="Testimonials_caretContainer">
+                                        
+                                  
+                                   </div>
+                                   
+                                   <div class="Testimonials_linesContainer  ">
+                                        <div class="Testimonials_selectedLine  Testimonials_caretLeft"></div>
+                                        <div class="Testimonials_line  Testimonials_caretLeft"></div>                                       
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="Tech_container">
+                                <span class="Tech_title">Technology Stack</span>
+                                <div class="Tech_logoContainer">
+                                    <a href="https://ethereum.org/" class="Tech_ethereum"></a>
+                                    <a href="https://enzyme.finance/" class="Tech_enzyme"></a>
+                                    <a href="https://kleros.io/" class="Tech_kleros"></a>
+                                </div>
+                            </div>
+                            <div class="Form_container">
+                                <span class="h6">JOIN OUR NEWSLETTER</span>
+                                <span class="Form_title">Stay updated on all things unslashed</span>
+                                <span class="Form_unsubscribe">You can unsubscribe at any time.</span>
+                                <div class="Form_inputContainer">
+                                    <div class="Input_container">
+                                        <input placeholder="Enter your email" class="Input_email">
+                                        <div class="btn btn-primary button_container">
+                                            <div>
+                                                <div class="Button_innercontainer">
+                                                    <img src="https://img.icons8.com/ios/50/000000/circled-right-2.png" style='color:green;'/>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                            <div class="Footer_container">
+                             <div class="Footer_topPart">
+                                <div class="Footer_logoContainer">
+                                    <img src="https://th.bing.com/th/id/OIF.omZEfWiRD9gpT7mBh4xWgw?pid=ImgDet&amp;rs=1" alt="See the source image" class=" nofocus" tabindex="0" aria-label="See the source image" width="60px" height="60px" background="transparent">
+                                     <span>UNSLASHED</span>
+                                </div>
+                                <div class="Footer_logosDesktop">
+                                    <div class="Footer_mediaContainer">
+                                        <div class="Footer_mediaSubContainer">
+                                            <div class="Footer_mediaLogoContainer">
+                                                <div class="Footer_toolTipContainer">Discord</div>
+                                                <img src="https://img.icons8.com/fluency/48/000000/discord-logo.png"/>
+                                    
+                                            </div>
+                                            <div class="Footer_mediaLogoContainer">
+                                                <div class="Footer_toolTipContainer">Twitter</div>
+                                            
+                                                <img src="https://img.icons8.com/fluency/48/000000/twitter.png"/>
+                                            </div>
+                                            <div class="Footer_mediaLogoContainer">
+                                                <div class="Footer_toolTipContainer">Telegram</div>
+                                                <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/000000/external-telegram-is-a-cloud-based-instant-messaging-and-voice-over-ip-service-logo-color-tal-revivo.png"/>
+                                            </div>
+                                            <div class="Footer_mediaLogoContainer">
+                                                <div class="Footer_toolTipContainer">Medium</div>
+                                                <img src="https://img.icons8.com/emoji/48/000000/circled-m-emoji.png"/>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Footer_USFContainer">
+                                    <div class="Select_container">
+                                        <div class="Footer_audit" style="color:#ffffff;">Audits</div>
+                                    </div>
+                                    <div class="button_container btn_secondary">
+                                        <div class="Button_secondaryInnerBackground">
+                                            <div class="Button_secondaryInnerContainer">Get USF Token</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                             </div>
+                             <span class="Footer_copyright"> © 2021 Unslashed Finance | All rights reserved.</span>
+                            </div>
+                       
+                    </div>
+                </div>
+            </div>
+            
+          
+    
+     
+     
+
+
+    
+     
+     
+</body>
+</html>
